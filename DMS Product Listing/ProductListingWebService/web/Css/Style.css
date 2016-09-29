@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/04/2016, 5:57:23 PM
+    Author     : Dom
+*/
+
+/*---------All body content--------------*/
+body{
+    background-color: white; 
+    font-family: 'Open Sans', sans-serif;
+}
+/*------Headers-----------*/
+h1{
+    height: 80px;
+    margin: -5px;	
+    font-size: 50px; 
+    font-weight: bold;
+    text-align: center;
+    color: rgba(54,144,240,1);
+}
+h3{
+    color: rgba(54,144,240,1);
+}
+
+/*-------Main Text Area----------*/
+div.default{
+    
+    border: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 70%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    
+    border-radius: 5px;
+}
+
+.listing{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    margin: auto;
+    
+}
+.left{
+    
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right:10px;
+}
+span.red{
+    color: red;
+    font-size: 16px; 
+
+}
+span.confirmation{
+    color: rgba(54,144,240,1);
+    font-size: 16px;
+    
+
+}
+
+#floatleft, #floatright {
+    float: left;
+}
+
+#floatleft {
+     width: 45%;
+    margin-left: 2%;
+    margin-right: 0.5%;
+}
+#floatright {
+     width: 45%;
+    margin-left: 0.5%;
+}
+
+
+/*--------Form Formating------------*/
+input[type=text], input[type=number],input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=button].form, input[type=submit].form, input[type=reset].form {
+    background-color: #235098;
+    width: 40%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+input[type=submit].large{
+    width: 100%;
+}
+.form.right{
+    float: right;
+}
+input[type=submit].confirm{
+    width: 100%;
+}
+button{
+    background-color: #235098; 
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    width: 20%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit].form, input[type=button].form, input[type=reset].form{
+    padding: 12px 20px;
+    padding-top: 10px; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
+/*--------Menu Formating------------*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 0;
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 7%,rgba(54,144,240,1) 21%,rgba(30,105,222,1) 100%);
+    overflow: hidden;
+    text-align: center;
+    
+    
+    
+}
+li input[type=submit] {
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 7%,rgba(54,144,240,1) 21%,rgba(30,105,222,1) 100%);
+    display: inline-block;
+    padding: 15px 50px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 2px; 
+    border-style: groove;
+    border-bottom: none;
+    border-top: none;
+    margin-left: -10px;
+}
+li{
+    display: inline;
+}
+
+/*--- Change the link color on hover ----*/
+li input:hover, li.tables input[type=submit]:hover {
+   
+    background: #235098; 
+}
+/*-----Sets menu button to be highlighted when it is active---------*/
+input[type=submit].active {
+    background: #235098; 
+    text-decoration: underline;
+}
+/*------------Table Switching lists Menu--------------*/
+ul.tables{
+    
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: left;
+    
+}
+li.tables  input[type=submit]{
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 7%,rgba(54,144,240,1) 21%,rgba(30,105,222,1) 100%);
+    display: block;
+    color: white;
+    padding: 15px 50px 16px;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+
+
+
+
+/*-----Table Formatting---------*/
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #e6efff}
+
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #235098; 
+    color: white;
+}
